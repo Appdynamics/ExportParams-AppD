@@ -2,7 +2,7 @@
 
 function is_hrv_event() {
     cond="${1//\"/}"
-    echo "Event Type Found ==> $cond"
+    # echo "Event Type Found ==> $cond"
     if [[ $cond == POLICY* ]] ;
     then
         return $SUCCESS
@@ -74,6 +74,7 @@ function process_hrv() {
         for trig in `seq 1 $NUMBER_OF_TRIGGERED_CONDITIONS_PER_EVALUATION_ENTITY`
         do
     
+
             EVENT_DETAIL=$EVENT_DETAIL"""\"Triggered Condition #"""$trig"""\":\"\","
     
             ((CURP = 1 + $CURP))
@@ -386,14 +387,14 @@ IS_HRV=0
 #if is_hrv_event ${@:-1} = $SUCCESS # Pre 4.0.6 controller
  if is_hrv_event ${@:(-3):1} = $SUCCESS # 4.0.6 or greater 
 then    
-    echo "Processing a Health Rule Violation event."
+    # echo "Processing a Health Rule Violation event."
     IS_HRV=1
     process_hrv "$@"
     export IS_HRV APP_NAME APP_ID PVN_ALERT_TIME PRIORITY SEVERITY TAG HEALTH_RULE_NAME HEALTH_RULE_ID PVN_TIME_PERIOD_IN_MINUTES 
     export AFFECTED_ENTITY_TYPE AFFECTED_ENTITY_NAME AFFECTED_ENTITY_ID SUMMARY_MESSAGE INCIDENT_ID DEEP_LINK_URL ACCOUNT_NAME ACCOUNT_ID EVENT_DETAIL
         
 else
-    echo "Processing a Non-Health Rule event."
+    #echo "Processing a Non-Health Rule event."
     process_non_hrv "$@"
     export IS_HRV APP_NAME APP_ID EN_TIME PRIORITY SEVERITY TAG EN_NAME EN_ID EN_INTERVAL_IN_MINUTES EVENT_DETAIL DEEP_LINK_URL ACCOUNT_NAME ACCOUNT_ID
 fi      
