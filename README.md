@@ -1,4 +1,4 @@
-# ExportCustomActionsAPPD
+# Export Parameters for Custom Actions
 
 The `appd_alert.sh` is a helper script that exports the event parameters for easy use in custom actions.
 `wrapper.sh` is an example script showing how to use the exported parameters from `appd_alert.sh`
