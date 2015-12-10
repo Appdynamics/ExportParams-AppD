@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ## modify $LOGF directory
-LOGF="~/AppDynamics/Controller/custom/actions/postmsg/output/send_alert.log"
+LOGF="/home/bnagallo/AppDynamics/Controller/custom/actions/postmsg/output/send_alert.log"
 . ./appd_alert.sh  "$@" >> $LOGF
 
 

@@ -1,0 +1,127 @@
+======================== Thu Dec 10 18:48:54 EST 2015 =======================
+Appliation: AppDynamics Sample App (Linux)
+Severity: ERROR
+IS_HRV = 0. Processing Policy Event.
+
+SUMMARY_MESSAGE: 
+APP_NAME: AppDynamics Sample App (Linux)
+APP_ID: 5
+EN_TIME: Thu Dec 10 18:48:14 EST 2015
+PRIORITY: 1
+SEVERITY: ERROR
+TAG: Testing
+EN_NAME: 
+EN_ID: 
+EN_INTERVAL_IN_MINUTES: ,
+DEEP_LINK_URL: http://localhost:8090/controller/#location=APP_SNAPSHOT_VIEWER&application=5&requestID=
+ACCOUNT_NAME: ACCOUNT
+ACCOUNT_ID: customer1_b6b73500-f002-40e7-a11b-920549b0cb05
+EVENT_DETAIL: { "Application Name": "AppDynamics Sample App (Linux)",
+    "Event Notification Time": "Thu Dec 10 18:48:14 EST 2015",
+    "Severity": "ERROR",
+    "Priority": "1",
+    "Event Notification Name": "SNAPSHOT","EVENT TYPE #1":"","Event Type": "SNAPSHOT","Event Type Num": "1","Number of Event Summaries for Event Type SNAPSHOT": "1","Event Summary #1":"","Event Summary": "1234","Event Summary Time": "Thu Dec 10 18:48:14 EST 2015","Event Summary Type": "1","Event Summary Severity": "ERROR","Event Summary String": "SNAPSHOT triggered at Thu Dec 10 18:48:14 EST 2015. This policy was violated because the following conditions were met for the /slowrequest Business Transaction for the last 1 minute(s): ","Deep link URL": "http://localhost:8090/controller/#location=APP_SNAPSHOT_VIEWER&application=5&requestID=","Account Name": "ACCOUNT","Account Id": "customer1_b6b73500-f002-40e7-a11b-920549b0cb05"}
+
+======================== Thu Dec 10 18:48:54 EST 2015 =======================
+Appliation: AppDynamics Sample App (Linux)
+Severity: ERROR
+IS_HRV = 0. Processing Policy Event.
+
+SUMMARY_MESSAGE: 
+APP_NAME: AppDynamics Sample App (Linux)
+APP_ID: 5
+EN_TIME: Thu Dec 10 18:48:14 EST 2015
+PRIORITY: 1
+SEVERITY: ERROR
+TAG: Testing
+EN_NAME: 
+EN_ID: 
+EN_INTERVAL_IN_MINUTES: ,
+DEEP_LINK_URL: http://localhost:8090/controller/#location=APP_SNAPSHOT_VIEWER&application=5&requestID=
+ACCOUNT_NAME: ACCOUNT
+ACCOUNT_ID: customer1_b6b73500-f002-40e7-a11b-920549b0cb05
+EVENT_DETAIL: { "Application Name": "AppDynamics Sample App (Linux)",
+    "Event Notification Time": "Thu Dec 10 18:48:14 EST 2015",
+    "Severity": "ERROR",
+    "Priority": "1",
+    "Event Notification Name": "SNAPSHOT","EVENT TYPE #1":"","Event Type": "SNAPSHOT","Event Type Num": "1","Number of Event Summaries for Event Type SNAPSHOT": "1","Event Summary #1":"","Event Summary": "1235","Event Summary Time": "Thu Dec 10 18:48:14 EST 2015","Event Summary Type": "1","Event Summary Severity": "ERROR","Event Summary String": "SNAPSHOT triggered at Thu Dec 10 18:48:14 EST 2015. This policy was violated because the following conditions were met for the /slowrequest Business Transaction for the last 1 minute(s): ","Deep link URL": "http://localhost:8090/controller/#location=APP_SNAPSHOT_VIEWER&application=5&requestID=","Account Name": "ACCOUNT","Account Id": "customer1_b6b73500-f002-40e7-a11b-920549b0cb05"}
+
+======================== Thu Dec 10 18:48:54 EST 2015 =======================
+Appliation: AppDynamics Sample App (Linux)
+Severity: INFO
+IS_HRV = 1. Process a Health Rule violation.
+
+SUMMARY_MESSAGE: Business Transaction response rate  is much higher than normal triggered at Thu Dec 10 18:48:22 EST 2015. This policy was violated because the following conditions were met for the /update Business Transaction for the last 1 minute(s): 
+APP_NAME: AppDynamics Sample App (Linux)
+APP_ID: 5
+PVN_ALERT_TIME: Thu Dec 10 18:48:22 EST 2015
+PRIORITY: 1
+SEVERITY: INFO
+TAG: Testing
+HEALTH_RULE_NAME: Business Transaction response rate  is much higher than normal
+HEALTH_RULE_ID: 16
+PVN_TIME_PERIOD_IN_MINUTES: 1,
+AFFECTED_ENTITY_TYPE: BUSINESS_TRANSACTION
+AFFECTED_ENTITY_NAME: /update
+AFFECTED_ENTITY_ID: 209
+SUMMARY_MESSAGE: Business Transaction response rate  is much higher than normal triggered at Thu Dec 10 18:48:22 EST 2015. This policy was violated because the following conditions were met for the /update Business Transaction for the last 1 minute(s): 
+INCIDENT_ID: 57
+DEEP_LINK_URL: http://localhost:8090/controller/#location=APP_INCIDENT_DETAIL&incident=57
+ACCOUNT_NAME: ACCOUNT
+ACCOUNT_ID: customer1_b6b73500-f002-40e7-a11b-920549b0cb05
+EVENT_DETAIL: { "Application Name": "AppDynamics Sample App (Linux)",
+    "Policy Violation Alert Time": "Thu Dec 10 18:48:22 EST 2015",
+    "Severity": "INFO",
+    "Priority": "1",
+    "Name of Violated Health Rule": "Business Transaction response rate  is much higher than normal",
+    "Affected Entity Type": "BUSINESS_TRANSACTION",
+    "Name of Affected Entity": "/update","Summary Message": "Business Transaction response rate  is much higher than normal triggered at Thu Dec 10 18:48:22 EST 2015. This policy was violated because the following conditions were met for the /update Business Transaction for the last 1 minute(s): ","Incident URL": "http://localhost:8090/controller/#location=APP_INCIDENT_DETAIL&incident=5757","Event Type": "POLICY_CLOSE_CRITICAL","Account Name": "ACCOUNT","Account Id": "customer1_b6b73500-f002-40e7-a11b-920549b0cb05"}
+
+======================== Thu Dec 10 18:49:54 EST 2015 =======================
+Appliation: AppDynamics Sample App (Linux)
+Severity: ERROR
+IS_HRV = 0. Processing Policy Event.
+
+SUMMARY_MESSAGE: 
+APP_NAME: AppDynamics Sample App (Linux)
+APP_ID: 5
+EN_TIME: Thu Dec 10 18:49:13 EST 2015
+PRIORITY: 1
+SEVERITY: ERROR
+TAG: Testing
+EN_NAME: 
+EN_ID: 
+EN_INTERVAL_IN_MINUTES: ,
+DEEP_LINK_URL: http://localhost:8090/controller/#location=APP_SNAPSHOT_VIEWER&application=5&requestID=
+ACCOUNT_NAME: ACCOUNT
+ACCOUNT_ID: customer1_b6b73500-f002-40e7-a11b-920549b0cb05
+EVENT_DETAIL: { "Application Name": "AppDynamics Sample App (Linux)",
+    "Event Notification Time": "Thu Dec 10 18:49:13 EST 2015",
+    "Severity": "ERROR",
+    "Priority": "1",
+    "Event Notification Name": "SNAPSHOT","EVENT TYPE #1":"","Event Type": "SNAPSHOT","Event Type Num": "1","Number of Event Summaries for Event Type SNAPSHOT": "1","Event Summary #1":"","Event Summary": "1240","Event Summary Time": "Thu Dec 10 18:49:13 EST 2015","Event Summary Type": "1","Event Summary Severity": "ERROR","Event Summary String": "SNAPSHOT triggered at Thu Dec 10 18:49:13 EST 2015. This policy was violated because the following conditions were met for the /slowrequest Business Transaction for the last 1 minute(s): ","Deep link URL": "http://localhost:8090/controller/#location=APP_SNAPSHOT_VIEWER&application=5&requestID=","Account Name": "ACCOUNT","Account Id": "customer1_b6b73500-f002-40e7-a11b-920549b0cb05"}
+
+======================== Thu Dec 10 18:49:54 EST 2015 =======================
+Appliation: AppDynamics Sample App (Linux)
+Severity: ERROR
+IS_HRV = 0. Processing Policy Event.
+
+SUMMARY_MESSAGE: 
+APP_NAME: AppDynamics Sample App (Linux)
+APP_ID: 5
+EN_TIME: Thu Dec 10 18:49:13 EST 2015
+PRIORITY: 1
+SEVERITY: ERROR
+TAG: Testing
+EN_NAME: 
+EN_ID: 
+EN_INTERVAL_IN_MINUTES: ,
+DEEP_LINK_URL: http://localhost:8090/controller/#location=APP_SNAPSHOT_VIEWER&application=5&requestID=
+ACCOUNT_NAME: ACCOUNT
+ACCOUNT_ID: customer1_b6b73500-f002-40e7-a11b-920549b0cb05
+EVENT_DETAIL: { "Application Name": "AppDynamics Sample App (Linux)",
+    "Event Notification Time": "Thu Dec 10 18:49:13 EST 2015",
+    "Severity": "ERROR",
+    "Priority": "1",
+    "Event Notification Name": "SNAPSHOT","EVENT TYPE #1":"","Event Type": "SNAPSHOT","Event Type Num": "1","Number of Event Summaries for Event Type SNAPSHOT": "1","Event Summary #1":"","Event Summary": "1241","Event Summary Time": "Thu Dec 10 18:49:13 EST 2015","Event Summary Type": "1","Event Summary Severity": "ERROR","Event Summary String": "SNAPSHOT triggered at Thu Dec 10 18:49:13 EST 2015. This policy was violated because the following conditions were met for the /slowrequest Business Transaction for the last 1 minute(s): ","Deep link URL": "http://localhost:8090/controller/#location=APP_SNAPSHOT_VIEWER&application=5&requestID=","Account Name": "ACCOUNT","Account Id": "customer1_b6b73500-f002-40e7-a11b-920549b0cb05"}
+
