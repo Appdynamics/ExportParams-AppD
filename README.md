@@ -104,6 +104,11 @@ The wrapper demonstates the different parameters for the (2) types of events.
   1. Lines 13-35 for Health Rule Violations
   2. Lines 36-53 for Policy Events
 
+
 For more information on Custom Actions. [See Documentation](https://docs.appdynamics.com/display/PRO40/Custom+Actions)
+
+Contributors:
+ 1. Kunal Gupta
+ 2. Bryan Nagallo
 
 
